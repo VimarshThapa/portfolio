@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Baloo Bhaina 2',sans-serif;
+    font-size: 20px;
+    color: #40515E;
+}
+
+.top-container{
+    background-color: #e4f9f9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-container h2{
+    font-weight: normal;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin-bottom: 0;
+    color: #66BFBF;
+}
+h2{
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3, a{
+    color: #11999E;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+p{
+    margin: 0;
+}
+.intro{
+    width: 40%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.security{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+hr{
+    border: dotted gainsboro 6px;
+    border-top-style: dotted;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.contact-me, .skills h2{
+    margin-top: 100px;    
+}
+
+.top-container h2{
+    margin-top: 20px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999c);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999c);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999c);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999c);
+    background-image: linear-gradient(top, #11cdd4, #11999c);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Baloo Bhaina 2';
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;  
+}
+
+.btn:hover{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb #2bc4ad);
+    background-image: linear-gradient(top, #30e3cb #2bc4ad);
+    text-decoration: none;
+}
+
+.bottom-container{
+    position: static;
+    height: 120px;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.bottom-container a{
+    margin: 30px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.85rem;
+    padding: 30px 0;
+}
+
+@media screen and (max-width: 610px){
+    .top-container{
+        position: relative;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .mountain{
+        width: 100%;
+        
+    }
+    .intro{
+        width: 90%;
+    }
+    .skill-row{
+        width: 90%;
+
+    }
+    .code-img{
+        float: none;
+        width: 60%;
+    }
+    .security{
+        float: none;
+        width: 60%;
+        margin-left: 0;
+
+    }
+    body{
+        text-align: center;
+    }
+    .top-cloud, .bottom-cloud{
+        position: static;
+        display: block;
+        margin: auto;
+    }
+    .contact-message{
+        width: 80%;
+    }
+    .skill-row{
+        text-align: center;
+    }
+}
