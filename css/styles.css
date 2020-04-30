@@ -188,4 +188,6 @@ hr{
     .skill-row{
         text-align: center;
     }
+    .bottom-container a{
+        margin: 10px;
 }
